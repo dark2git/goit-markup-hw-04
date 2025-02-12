@@ -263,7 +263,7 @@ address ul li a:active {
 
 /* Features Section (Section Two) */
 .section-two {
-  height: 344px;
+  height: 464px;
 }
 
 .visually-hidden {
@@ -286,6 +286,17 @@ address ul li a:active {
 
 .sec-two-list-item {
   flex-basis: calc(100% - (3 * 24px) / 4);
+}
+
+.rectangle {
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: var(--cloud);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sec-two-list-item .sec-head,
