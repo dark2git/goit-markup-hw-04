@@ -208,6 +208,7 @@ address ul li a:active {
 .section-one {
   height: 600px;
   background: var(--navy-blue);
+  background-image: url(./images/hero-pic.jpg);
   padding: 188px 0 
 }
 
