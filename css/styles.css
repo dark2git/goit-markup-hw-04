@@ -354,18 +354,40 @@ address ul li a:active {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   flex-basis: calc(100% - (3 * 24px) / 4);
-  height: 380px;
+  height: 428px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
 }
 
 .name_and_position {
-  padding: 32px 0;
+  margin: 32px 16px;
+  width: 232px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+
+}
+
+.svg-link {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--iris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .social-icon {
-  fill: var(--iris);
+  fill: var(--cloud);
 }
 
 /* Portfolio Section (Section Four) */
@@ -424,6 +446,7 @@ address ul li a:active {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--slate);
+  margin-bottom: 8px;
 }
 
 /* Footer */
