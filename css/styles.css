@@ -508,7 +508,8 @@ address ul li a:active {
 
 .basement .container {
   display: flex;
-  column-gap: 120px;
+  /* column-gap: 120px; */
+  align-items: baseline;
 }
 
 .basement .logo {
@@ -520,6 +521,7 @@ address ul li a:active {
 .logo-section {
   height: 112px;
   width: 264px;
+  margin-right: 120px;
 }
 
 .social-section {
@@ -527,7 +529,7 @@ address ul li a:active {
   width: 200px;
 }
 
-.social-section p {
+.social-section .captions-for-medialinks {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
