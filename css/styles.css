@@ -386,8 +386,8 @@ address ul li a:active {
   justify-content: center;
 }
 
-.circle-link:hover .svg-link,
-.circle-link:focus .svg-link {
+.svg-link:hover,
+.svg-link:focus {
   background-color: var(--ocean);
 }
 
