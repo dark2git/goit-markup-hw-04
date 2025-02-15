@@ -387,7 +387,7 @@ address ul li a:active {
 }
 
 .circle-link:hover .svg-link,
-.circle-link:active .svg-link {
+.circle-link:focus .svg-link {
   background-color: var(--ocean);
 }
 
