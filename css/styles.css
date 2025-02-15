@@ -541,6 +541,10 @@ address ul li a:active {
   color: var(--cloud);
 }
 
+.basement .socials {
+  gap: 16px;
+}
+
 .basement-paragraph {
   color: #f4f4fd;
   width: 264px;
